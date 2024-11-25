@@ -1,4 +1,4 @@
 StudentId:2413111010
 StudentName:Sukonlawat Auppor
-Date:11/18/2024
-Topic:work with Github
+Date:11/25/2024
+Topic:Display, Variable and Input
