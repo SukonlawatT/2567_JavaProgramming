@@ -16,10 +16,7 @@ public class JavaExample2 {
         double totalVat = totalPrice + (totalPrice * 7/100);
         JOptionPane.showMessageDialog(null, "total Price is " + frmTotalPrice + " baht.\n" + "Add VAT is " + totalVat + " baht.");
         
-        //double totalVat = totalPrice + (totalPrice * 7/100);
-        
-        //JOptionPane.showMessageDialog(null, "Add VAT is " + totalVat + " baht." + );
-		
+      
 	}
 
 }
