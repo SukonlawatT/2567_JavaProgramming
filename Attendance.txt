@@ -1,4 +1,4 @@
 StudentId:2413111010
 StudentName:Sukonlawat Auppor
-Date:12/09/2024
-Topic:String Method
+Date:12/16/2024
+Topic:Method
