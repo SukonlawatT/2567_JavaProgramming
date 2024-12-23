@@ -19,7 +19,7 @@ public class Lab501Method
 		
 		if(checkItem(itemOrder))
 		{
-			System.out.print("Item" + priceProduct + "is" + itemOrder);
+			System.out.print("Item" + priceProduct + "is" + itemOrder);	
 		}
 		else
 		{
