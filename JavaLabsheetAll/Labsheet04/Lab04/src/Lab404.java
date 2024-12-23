@@ -15,10 +15,10 @@ public class Lab404
 
         while (true) 
         {
-            System.out.print("Enter Student ID: ");
+            System.out.print("Enter Student ID : ");
             studentID = scr.nextLine();
 
-            System.out.print("Enter Subject Code: ");
+            System.out.print("Enter Subject Code : ");
             subjectCode = scr.nextLine();
 
             isStudentIDValid = isLength(studentID, 10);

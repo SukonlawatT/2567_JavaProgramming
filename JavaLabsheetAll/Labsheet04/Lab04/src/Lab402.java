@@ -5,20 +5,20 @@ public class Lab402
 	public static void main(String[] args) 
 	{
 		String input = JOptionPane.showInputDialog(null, "Input year: ", "Input" ,JOptionPane.QUESTION_MESSAGE);
-		int year = Integer.parseInt(input);
-		  if(!cheakYear(year))
+		int Year = Integer.parseInt(input);
+		  if(!cheakYear(Year))
 		  {
-			JOptionPane.showMessageDialog(null, year + " is Leap Year.");
+			JOptionPane.showMessageDialog(null, Year + " is Leap Year.");
 		  }
 		  else 
 		  {
-			  if(isLeapYear(year)) 
+			  if(isLeapYear(Year)) 
 			  {
-				JOptionPane.showMessageDialog(null, year + " is Leap Year.");
+				JOptionPane.showMessageDialog(null, Year + " is Leap Year.");
 			  }
 			  else
 			  {
-				JOptionPane.showMessageDialog(null, year + " is NOT Leap Year.");
+				JOptionPane.showMessageDialog(null, Year + " is NOT Leap Year.");
 			  }
 		  }
 		  
