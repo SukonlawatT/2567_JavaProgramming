@@ -26,6 +26,7 @@ public class Lab508 {
             else 
             {
                 input = JOptionPane.showInputDialog(null, "Invalid input. Input index of array, again", "Error", JOptionPane.ERROR_MESSAGE);
+            
             }
         }
 

@@ -3,16 +3,16 @@ public class Lab502 {
 
 	public static void main(String[] args) 
 	{
-		int num[] = new int[5];
+		int nums[] = new int[5];
 		Scanner scan = new Scanner(System.in);
 		for (int i=0; i<5; i++)
 		{
 			System.out.print("Input number "+(i+1) +": ");
-			num[i] = scan.nextInt();
+			nums[i] = scan.nextInt();
 		}
 		System.out.println();
 		
-		System.out.println("Summation of positive number is "+(sumOfPos(num)));
+		System.out.println("Summation of positive number is "+(sumOfPos(nums)));
 		
 		scan.close();
 	}

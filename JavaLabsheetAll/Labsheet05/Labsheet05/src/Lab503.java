@@ -25,7 +25,7 @@ public class Lab503 {
         
         
         System.out.println("");
-        System.out.println("There are " + oddCount + " odd number(s).");
+        System.out.println("There are " + oddCount + " odd number(s). ");
         System.out.println("List of odd number(s): " + oddNumbers.trim());
         
         scanner.close(); 

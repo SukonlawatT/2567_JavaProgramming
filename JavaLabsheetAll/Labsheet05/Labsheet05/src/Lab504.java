@@ -28,6 +28,7 @@ public class Lab504
 			studentNumber++;
 		}
 		scan.close();
+		
 	}
 
 }
