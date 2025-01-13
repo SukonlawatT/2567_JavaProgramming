@@ -4,7 +4,6 @@ public class shoppingCart
 
 	public static void main(String[] args) 
 	{
-		//ทดสอบนระบบ shoppinเ cart
 
 		displayItemsAndTotal("Apple", 10.5, "Banana", 5.75, "Orange", 7.3);
 		displayItemsAndTotal("Milk", 20.0, "Bread", 15.0);
