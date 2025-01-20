@@ -1,4 +1,4 @@
 StudentId:2413111010
 StudentName:Sukonlawat Auppor
-Date:13/1/2024
-Topic:Class and Object
+Date:20/1/2024
+Topic:Encapsulation Concept,Array Object
