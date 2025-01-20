@@ -5,7 +5,6 @@ public class TestProductInput
 	{
 		
 	  Scanner scan = new Scanner(System.in);
-	  
 	  Product pd1 = new Product();
 	  
 	 

@@ -15,6 +15,7 @@ public class LoanCalculator
 
     public double calculateMonthlyPayment() 
     {
+    	
         double month = years * 12;
         double interestRatee = (interestRate / 12) / 100;
         return (price * interestRatee * (Math.pow((1 + interestRatee), month))) /

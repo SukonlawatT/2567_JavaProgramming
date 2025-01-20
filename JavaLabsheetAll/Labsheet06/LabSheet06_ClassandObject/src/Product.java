@@ -5,10 +5,10 @@ public class Product
 	private double price;
 	private double vatRate;
 	
-	public void setProductDetails(String stname, double dbprice, double dbvatRate)
+	public void setProductDetails(String stname, double dprice, double dbvatRate)
 	{
 		name = stname;
-		price = dbprice;
+		price = dprice;
 		vatRate = dbvatRate;
 	}
 	public double calculateTotalPrice()
