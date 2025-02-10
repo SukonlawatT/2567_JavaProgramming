@@ -19,7 +19,7 @@ public class CheckStockProduct
 			int Unit = scan.nextInt();
 			System.out.println();
 			
-			productList[i] = new Product(Id,Unit,0);
+			productList[i] = new Product(Id, Unit, 0);
 		}
 		System.out.println("---------------------------------------------------");
 		System.out.println("List product in 'LOW' status.");

@@ -35,6 +35,6 @@ public class Product
 	}
 	public double calculate()
 	{
-		return productUnit * productPrice;
+		return productUnit*productPrice;
 	}
 }

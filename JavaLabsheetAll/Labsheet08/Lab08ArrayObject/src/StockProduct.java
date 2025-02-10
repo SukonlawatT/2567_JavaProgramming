@@ -36,7 +36,7 @@ public class StockProduct
         sc.close();
         
         System.out.println("-----------------------------------------------------");
-        double totalSum = 0;
+        double totalSum =0;
         for (Product p : productList) 
         {
             double totalPrice = p.calculate();
