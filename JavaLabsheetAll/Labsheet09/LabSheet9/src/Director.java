@@ -10,7 +10,7 @@ public class Director {
 		this.gender = gender;
 	}
 	Director(String name,String email) {
-		this(name,email,'\0');
+		this(name,email,'0');
 	}
 	public String getName() {
 		return this.name;
@@ -30,7 +30,6 @@ public class Director {
 		}
 	}
 	public String toString() {
-		return "["+getName()+"]"+"(["+getemail()+"];["+getGenderName()+"]";
+		return getName()+" "+"("+getemail()+";"+getGenderName()+")";
 	}
-
 }

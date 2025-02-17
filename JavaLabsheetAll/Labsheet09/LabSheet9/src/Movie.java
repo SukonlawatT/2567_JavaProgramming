@@ -20,15 +20,14 @@ public class Movie {
 	public String getName() {
 		return this.name;
 	}
-	public Director getdirector() {
+	public Director getDirector() {
 		return this.director;
 	}
 	public void setDirector(Director director) {
 		this.director = director;
 	}
 	public String toString() {
-		return "["+getId()+"]["+getName()+"] direct by ["+toString()+" of Director class";
+		return getId()+" "+getName()+" direct by "+director.toString();
 	}
 	
-
 }
