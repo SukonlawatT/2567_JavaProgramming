@@ -16,6 +16,7 @@ public class Drink {
 		}else if(type == 2) 
 			return "Cold";
 		    return null;
+		
 	}
 	int getTypePrice() {
 		if(type ==1) {
@@ -35,15 +36,15 @@ public class Drink {
 	}
 	int getSizePrice() {
 		if(size == 's' || size == 'S') {
-			return 10;
-		}else if(size == 'm' || size == 'M')
-			return 20;
-		return 0;
-		
+	        return 15;
+	    }else if(size == 'm' || size == 'M') {
+	        return 20;
+	    }else if(size == 'l' || size == 'L') {
+	        return 25;
+	    }
+	    return 0;
 	}
 	int getTotalPrice() {
-		return type += getSizePrice();
+		return getTypePrice() + getSizePrice();
 	}
-
 }
-

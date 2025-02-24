@@ -1,5 +1,6 @@
 
 public class Barista {
+	
 	private String name;
 	private char gender;
 	
@@ -21,6 +22,4 @@ public class Barista {
 			return "Female";
 		return "spacebar";
 	}
-	
-
 }
