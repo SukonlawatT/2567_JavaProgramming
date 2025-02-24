@@ -8,7 +8,7 @@ public class Drink {
 		this.size = size;
 	}
 	Drink() {
-		this(0,'0');
+		this(0,'s');
 	}
 	String getTypeName() {
 		if(type ==1) {
