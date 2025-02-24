@@ -9,7 +9,7 @@ public class Barista {
 		this.gender = gender;
 	}
 	Barista() {
-		this("",'s');
+		this("",'0');
 	}
 	String getName() {
 		return this.name;

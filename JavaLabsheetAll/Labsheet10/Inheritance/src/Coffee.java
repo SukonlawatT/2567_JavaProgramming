@@ -13,7 +13,7 @@ public class Coffee extends Drink{
 	Coffee (int type, int typeCoffee) {
 		 super(type, 'S'); 
 	        this.typeCoffee = typeCoffee;
-	        this.sizecoffee = 'S'; 
+	        this.sizecoffee = '0'; 
 	        this.barista = new Barista("Unknown", ' ');
 	}
 	Barista getbarista() {

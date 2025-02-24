@@ -18,7 +18,7 @@ public class CoffeeShopDemo {
         System.out.print("Enter Barista (1: Leon, 2: Claire): ");
         int baristaChoice = scanner.nextInt();
         
-        Barista selectedBarista = (baristaChoice == 2) ? staff2 : staff1;
+        Barista selectedBarista = (baristaChoice == 2) ? staff2:staff1;
         
         Coffee order = new Coffee(drinkType, coffeeSize, coffeeType, selectedBarista);
         
